@@ -1,0 +1,17 @@
+/* .home_container {
+    display: flex;
+    align-items: center;
+} */
+.home_background {
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: -350px;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.home_row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
